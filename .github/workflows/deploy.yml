@@ -64,7 +64,7 @@ jobs:
       - name: Deploy site
         run: echo "Deploying..."
   information:
-    runs-on:
+    runs-on: ubutu-latest
     steps:
       - name: Run custom action
         uses: ./.github/actions/deploy-s3-javascript
